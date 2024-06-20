@@ -1,0 +1,30 @@
+###
+GET http://localhost:3000/api/order/consult-allOrders
+
+###
+POST http://localhost:3000/api/order/createOrder
+Content-Type: application/json
+
+{
+    "id_cliente": 2,
+    "precio_total": 200,
+    "productos": [
+        {
+            "id_producto": 7,
+            "cantidad": 3
+        },
+        {
+            "id_producto": 5,
+            "cantidad": 2
+        }
+    ]
+}
+
+###
+PUT http://localhost:3000/api/order/updateOrder
+Content-Type: application/json
+
+{
+    "id" : 15,
+    "estado_pedido": "0"
+}

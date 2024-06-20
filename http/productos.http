@@ -1,0 +1,27 @@
+###
+GET http://localhost:3000/api/product/consult-allProducts
+
+###
+POST http://localhost:3000/api/product/saveProduct
+Content-Type: application/json
+
+{
+    "nombre": "Producto 1",
+    "descripcion": "Descripcion de producto 1",
+    "precio": 10,
+    "imagen": "https://via.placeholder.com/150"
+}
+
+###
+PUT http://localhost:3000/api/product/updateProduct/1
+Content-Type: application/json
+
+{
+    "nombre": "Producto 1",
+    "descripcion": "Descripcion de producto 1",
+    "precio": 10,
+    "imagen": "https://via.placeholder.com/150"
+}
+
+###
+DELETE http://localhost:3000/api/product/deleteProduct/1

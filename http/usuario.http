@@ -1,0 +1,30 @@
+###
+GET http://localhost:3000/api/user/consult-allUser
+
+###
+POST http://localhost:3000/api/user/saveUser
+Content-Type: application/json
+
+{
+    "documento": "1233789",
+    "nombres": "Daniel estrada",
+    "correo": "estrada@gmail.com",
+    "contrasena": "123456",
+    "id_rol": 1
+}
+
+###
+DELETE http://localhost:3000/api/user/deleteUser/5
+
+###
+PUT http://localhost:3000/api/user/updateUser
+Content-Type: application/json
+
+{
+    "id": 3,
+    "documento": "1096785496",
+    "nombres": "Gerson Casrillon",
+    "correo": "Gerson@gmail.com",
+    "contrasena": "gerson1234",
+    "id_rol": 2
+}

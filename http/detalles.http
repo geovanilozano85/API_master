@@ -1,0 +1,6 @@
+###
+GET http://localhost:3000/api/orderDetail/consult-allOrderDetails
+
+###
+GET http://localhost:3000/api/orderDetail/consultOrderDetail/15
+

@@ -1,0 +1,25 @@
+###
+GET http://localhost:3000/api/client/consult-allClients
+
+###
+POST http://localhost:3000/api/client/createClient
+Content-Type: application/json
+
+{
+    "nombre": "Cliente 1",
+    "correo": "cliente1@gmail.com",
+    "telefono": 1234567890
+}
+
+###
+PUT http://localhost:3000/api/client/updateClient/1
+Content-Type: application/json
+
+{
+    "nombre": "Cliente 1",
+    "correo": "cliente1@gmail.com",
+    "telefono": 1234567890
+}   
+
+###
+DELETE http://localhost:3000/api/client/deleteClient/
